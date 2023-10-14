@@ -114,7 +114,7 @@ class AccountServiceTest {
     }
 
     @Test
-    @DisplayName("우저 당 최대 계좌는 10개")
+    @DisplayName("유저 당 최대 계좌는 10개")
     void createAccount_maxAccountIs10() {
         //given
         AccountUser user = AccountUser.builder()
