@@ -297,7 +297,7 @@ class AccountServiceTest {
                         .accountNumber("3333333333")
                         .balance(3000L)
                         .build()
-                );
+        );
         given(accountUserRepository.findById(anyLong()))
                 .willReturn(Optional.of(user));
 
